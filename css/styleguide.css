@@ -1,0 +1,28 @@
+:root { 
+  --barossa: #3f0234;
+  --dove-gray: #707070;
+  --licorice: #1b1414;
+  --red: #ff0000;
+  --white: #ffffff;
+ 
+  --font-size-l: 60px;
+  --font-size-m: 44px;
+  --font-size-s: 37px;
+  --font-size-xl: 68px;
+  --font-size-xxl: 98px;
+ 
+  --font-family-roboto: "Roboto", Helvetica;
+  --font-family-rockwell-bold: "Rockwell-Bold", Helvetica;
+  --font-family-rockwell-italic: "Rockwell-Italic", Helvetica;
+}
+.rockwell-italic-normal-dove-gray-44px {
+  color: var(--dove-gray);
+  font-family: var(--font-family-rockwell-italic);
+  font-size: var(--font-size-m);
+  font-style: italic;
+  font-weight: 400;
+}
+
+.border-1px-dove-gray {
+  border: 1px solid var(--dove-gray);
+}
